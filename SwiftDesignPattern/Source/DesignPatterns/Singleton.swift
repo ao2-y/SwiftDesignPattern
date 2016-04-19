@@ -2,6 +2,8 @@
 //  SingleTon.swift
 //  SwiftDesignPattern
 //
+//　Singletonパターンは、そのクラスのインスタンスが1つしか生成されないことを保証することができるデザインパターンです。
+//
 //　参考URL:
 // 　http://qiita.com/susieyy/items/acb3bc80a1dafe64cffd
 //
