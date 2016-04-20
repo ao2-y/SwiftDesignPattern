@@ -22,7 +22,8 @@ class AdapterTest: XCTestCase {
     }
     
     func testExample() {
-        Adapter().requiredMethod()
+        AdapterOverride().requiredMethod()
+        AdapterTransfer().requiredMethod()
     }
     
     func testPerformanceExample() {
