@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BFE23B321CC6819F00923121 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE23B311CC6819F00923121 /* Iterator.swift */; };
 		BFE23B341CC681B200923121 /* IteratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE23B331CC681B200923121 /* IteratorTest.swift */; };
+		BFE23B361CC7D87600923121 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE23B351CC7D87600923121 /* Adapter.swift */; };
+		BFE23B381CC7D89000923121 /* AdapterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE23B371CC7D89000923121 /* AdapterTest.swift */; };
 		BFE87A571CC538CB0034C79E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE87A561CC538CB0034C79E /* AppDelegate.swift */; };
 		BFE87A591CC538CB0034C79E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE87A581CC538CB0034C79E /* ViewController.swift */; };
 		BFE87A5C1CC538CB0034C79E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE87A5A1CC538CB0034C79E /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		BFE23B311CC6819F00923121 /* Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
 		BFE23B331CC681B200923121 /* IteratorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IteratorTest.swift; sourceTree = "<group>"; };
+		BFE23B351CC7D87600923121 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		BFE23B371CC7D89000923121 /* AdapterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdapterTest.swift; sourceTree = "<group>"; };
 		BFE87A531CC538CB0034C79E /* SwiftDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE87A561CC538CB0034C79E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE87A581CC538CB0034C79E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +146,7 @@
 			children = (
 				BFE87A7C1CC53A390034C79E /* Singleton.swift */,
 				BFE23B311CC6819F00923121 /* Iterator.swift */,
+				BFE23B351CC7D87600923121 /* Adapter.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			children = (
 				BFE87A811CC53A910034C79E /* SingletonTest.swift */,
 				BFE23B331CC681B200923121 /* IteratorTest.swift */,
+				BFE23B371CC7D89000923121 /* AdapterTest.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				BFE87A591CC538CB0034C79E /* ViewController.swift in Sources */,
 				BFE87A7D1CC53A390034C79E /* Singleton.swift in Sources */,
 				BFE87A571CC538CB0034C79E /* AppDelegate.swift in Sources */,
+				BFE23B361CC7D87600923121 /* Adapter.swift in Sources */,
 				BFE23B321CC6819F00923121 /* Iterator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE87A6C1CC538CC0034C79E /* SwiftDesignPatternTests.swift in Sources */,
+				BFE23B381CC7D89000923121 /* AdapterTest.swift in Sources */,
 				BFE87A821CC53A910034C79E /* SingletonTest.swift in Sources */,
 				BFE23B341CC681B200923121 /* IteratorTest.swift in Sources */,
 			);
