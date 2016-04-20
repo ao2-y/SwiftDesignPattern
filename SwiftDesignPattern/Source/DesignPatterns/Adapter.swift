@@ -12,21 +12,48 @@
 
 import UIKit
 
+/***************************************************************
+　継承
+***************************************************************/
+
 // 必須で実装させたいメソッドを定義
-protocol Target {
+protocol TargetOverride {
     func requiredMethod()
-    
 }
 
-class Adaptee {
+
+class AdapteeOverride {
     func oldMethod() {
         print(#function)
     }
 }
 
-class Adapter: Adaptee, Target {
+class AdapterOverride: AdapteeOverride, TargetOverride {
     func requiredMethod() {
         super.oldMethod()
     }
 }
 
+
+/***************************************************************
+ 　委譲
+ ***************************************************************/
+class TargetTransfer {
+    func requiredMethod() {
+        fatalError("must be overridden")
+    }
+}
+
+class AdapteeTransfer {
+    func oldMethod() {
+        print(#function)
+    }
+}
+
+class AdapterTransfer: TargetTransfer {
+    private let adaptee = AdapteeTransfer()
+    
+     override func requiredMethod() {
+        adaptee.oldMethod()
+    }
+}
